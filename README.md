@@ -33,7 +33,7 @@ Install Qt6 development packages:
 #### Debian / Ubuntu
 
 ```
-sudo apt install qt6-base-dev qt6-webengine-dev qt6-websockets-dev qt6-network-dev qt6-tools-dev qt6-base-dev-tools
+sudo apt install qt6-base-dev qt6-webengine-dev qt6-websockets-dev  qt6-tools-dev qt6-base-dev-tools
 
 ```
 
@@ -62,7 +62,7 @@ make -j$(nproc)
 
 ```
 
-This will produce the `Aksharshala` binary in the `build/` directory.
+This will produce the `aksharshala` binary in the `build/` directory.
 
 ## 📦 Runtime Dependencies
 
