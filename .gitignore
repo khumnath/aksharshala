@@ -1,0 +1,29 @@
+# Ignore build directory
+build/
+build/*
+
+# Ignore Qt Creator user/session files
+*.user
+*.user.*
+*.autosave
+
+# Ignore CMake cache and generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Ninja build artifacts
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Ignore generated binaries
+*.exe
+*.out
+*.app
+*.bin
+
+# Ignore logs and temporary files
+*.log
+*.tmp
